@@ -24,3 +24,10 @@ background-color: aqua;
 {
     background-color: darkblue;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
