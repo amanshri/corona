@@ -136,8 +136,17 @@ width: 1024;
   
   /* Decorations */
   .col-sm-4 { color: #fff; font-size: 2px; padding: 0px; padding-left: 10px;padding-right: 10px;}
-  .col-sm-4:nth-child(3n+1) { background: #c69; }
-  .col-sm-4:nth-child(3n+2) { background: #9c6; }
-  .col-sm-4:nth-child(3n+3) { background: #69c; }
+  .col-sm-4:nth-child(3n+1) { background:black }
+  .col-sm-4:nth-child(3n+2) { background:black; }
+  .col-sm-4:nth-child(3n+3) { background:black; }
+
+  p
+  {
+ color: blue;
+
+  }
   
- 
+ .blackcolor
+ {
+color: black;
+ }
