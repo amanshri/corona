@@ -111,4 +111,33 @@ width: 1024;
     text-align: center;
   }
 
+
+  .card-block {
+    min-height: 220px;
+    margin-bottom: 15px;
+}
+
+.fix
+{
+    height: 200px;
+    width: 800px;
+}
+
+
+/* The heart of the matter */
+.testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-sm-4 {
+    display: inline-block;
+    float: none;
+  }
   
+  /* Decorations */
+  .col-sm-4 { color: #fff; font-size: 2px; padding: 0px; padding-left: 10px;padding-right: 10px;}
+  .col-sm-4:nth-child(3n+1) { background: #c69; }
+  .col-sm-4:nth-child(3n+2) { background: #9c6; }
+  .col-sm-4:nth-child(3n+3) { background: #69c; }
+  
+ 
